@@ -1,4 +1,4 @@
-package Task9;
+
 
 public class Square extends Quadrangle implements Figure{
 

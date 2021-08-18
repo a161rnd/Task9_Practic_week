@@ -1,4 +1,4 @@
-package Task9;
+
 
 public class Rhombuses extends Quadrangle implements Figure {
 

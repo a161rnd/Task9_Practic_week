@@ -1,4 +1,4 @@
-package Task9;
+
 
 public class Rectangle extends Quadrangle implements Figure {
 
