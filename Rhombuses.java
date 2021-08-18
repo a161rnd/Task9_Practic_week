@@ -1,5 +1,4 @@
 
-
 public class Rhombuses extends Quadrangle implements Figure {
 
     double alpha;
@@ -13,10 +12,9 @@ public class Rhombuses extends Quadrangle implements Figure {
 
     @Override
     double getLargeDiagonal() {
-        double alphaR = Math.toRadians(alpha);
-        double betaR = Math.toRadians(beta);
-       double d1 = 2 * alphaR * Math.cos(alphaR / 2);
-       double d2 = 2 * betaR * Math.cos(betaR / 2);
+
+        double d1 = 2 * a * Math.cos(Math.toRadians(alpha) / 2);
+        double d2 = 2 * a * Math.cos(Math.toRadians(beta) / 2);
         return Math.max(d1, d2);
     }
 
